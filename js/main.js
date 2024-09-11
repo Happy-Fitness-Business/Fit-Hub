@@ -1,2 +1,5 @@
-// You can add any custom JavaScript here for future interactivity.
-console.log("Fitness Affiliate Website is live!");
+// alert("welcome");
+function toggleMenu() {
+    var navLinks = document.getElementById("navLinks");
+    navLinks.classList.toggle("active");
+}
